@@ -18,6 +18,7 @@ cinst gradle
 # Programming Languages
 cinst golang
 cinst nodejs.install
+cinst unity
 
 # Development IDE's
 cinst intellijidea-ultimate
