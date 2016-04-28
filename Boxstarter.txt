@@ -1,14 +1,13 @@
 Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Enable-RemoteDesktop
 
-## Development
-# Git
-cinst git-credential-winstore
-cinst poshgit
+#Git
+cinst tortoisegit
 
 # Console
 cinst console-devel
 cinst babun
+cinst conemu
 
 # Java Development
 cinst jdk8
@@ -16,62 +15,51 @@ cinst javaruntime
 cinst maven
 cinst gradle
 
-# Application Server
-cinst tomcat
-
 # Programming Languages
 cinst golang
 cinst nodejs.install
 
 # Development IDE's
 cinst intellijidea-ultimate
-cinst visualstudio2015professional -packageParameters "--Features VC_MFC_Libraries, NativeLanguageSupport_VCV1, Win81SDK_HiddenV1"
-cinst dotpeek
+cinst visualstudio2015community -packageParameters "--Features VC_MFC_Libraries, NativeLanguageSupport_VCV1, Win81SDK_HiddenV1"
+cinst netbeans-jee
+
+# SDKs
+cinst android-sdk
 
 # Database Server
 cinst mariadb
 cinst neo4j-community
-cinst postgresql
-cinst mongodb
-cinst couchdb
-cinst redis
 cinst elasticsearch
 
-# Database Client
-cinst db-visualizer
-
-# Virtualisation and Container
-cinst virtualbox
-cinst vagrant
-cinst packer
-cinst otto
-
-# Container
-cinst docker
-
-# Website Prototyping
-cinst hugo
-
-## Tools and Apps
-cinst sublimetext2
-cinst fiddler4
-cinst youtube-dl
+# Tools and Apps
 cinst windirstat
+cinst notepadplusplus
+cinst 7zip
+cinst sysinternals
+cinst filezilla
+cinst putty
+cinst greenshot
+cinst irfanview
+cinst pdfxchangeviewer
 
 # Browsers
 cinst googlechrome
-cinst firefox
-cinst thunderbird
 
 # Office Tools
 cinst libreoffice
 
 # Cloud
 cinst dropbox
+cinst googledrive
 
 # Media
 cinst kodi
-cinst itunes
+cinst vlc
+
+# Writing
+cinst focuswriter
+
 
 ## Windows Features / Updates
 cinst Microsoft-Hyper-V-All -source windowsFeatures
